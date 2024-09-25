@@ -8,13 +8,9 @@ Rails.application.routes.draw do
 
   # Rutas para escritura
   resources :personas_write, only: [ :create, :update, :destroy ]
-  # Rutas para lectura
-  resources :personas, only: [ :index, :show ]
 
   # Rutas para escritura
   resources :amistades_write, only: [ :create, :update, :destroy ]
-  # Rutas para lectura
-  resources :amistades, only: [ :index, :show ]
 
   # Defines the root path route ("/")
   # root "posts#index"
