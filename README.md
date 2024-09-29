@@ -48,3 +48,23 @@ prerequisitos Node
 
 ---
 
+## Instalación de la gema de Cassandra
+
+1. Instala la gema de Cassandra ejecutando el siguiente comando en la terminal:
+    ```bash
+    gem install cassandra
+    ```
+
+2. Verifica que la instalación fue exitosa con:
+    ```bash
+    gem list cassandra
+    ```
+
+---
+
+## Comando para correr el repositorio
+
+1. Una vez que hayas instalado las dependencias y configurado el entorno, puedes iniciar el servidor de Rails con el siguiente comando:
+    ```bash
+    rails server
+    ```
